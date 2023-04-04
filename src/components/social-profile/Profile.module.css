@@ -1,0 +1,37 @@
+.profile {
+    display: flex;
+    margin: 0 auto;
+}
+
+.description {
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.name {
+    margin: 0 auto;
+}
+
+.tag {
+    margin: 0 auto;
+}
+
+.location {
+    margin: 0 auto;
+}
+
+.stats{
+    margin: 0 auto;
+}
+
+.label{
+    margin: 0 auto;
+}
+
+.quantity {
+    margin: 0 auto;
+}
