@@ -22,7 +22,7 @@ export const Profile = ({
           <span className={css.label}>Views</span>
           <span className={css.quantity}>{stats.views}</span>
         </li>
-        <li>
+        <li className="listItem">
           <span className={css.label}>Likes</span>
           <span className={css.quantity}>{stats.likes}</span>
         </li>
