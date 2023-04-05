@@ -30,5 +30,3 @@ export function FriendListItem({ friends: { avatar, name, isOnline } }) {
     </li>
   );
 }
-
-// style={{ backgroundColor: getRandomDarkHexColor() }}
