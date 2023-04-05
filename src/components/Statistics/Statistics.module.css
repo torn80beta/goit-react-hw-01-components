@@ -16,10 +16,11 @@
 .statList {
     display: flex;
     flex-direction: row;
-
+    flex-wrap: wrap;
 }
 
 .item {
+    width: calc(100% / 5);
     height: 60px;
     color: white;
     text-align: center;
