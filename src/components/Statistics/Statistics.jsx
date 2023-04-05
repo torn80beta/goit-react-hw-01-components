@@ -1,9 +1,6 @@
 import css from '../../components/Statistics/Statistics.module.css';
 import PropTypes, { shape } from 'prop-types';
-
-const getRandomDarkHexColor = () => {
-  return `hsl(${Math.floor(Math.random() * 360)}deg, 75%, 25%)`;
-};
+import { getRandomDarkHexColor } from '../utils/GetRandomColor';
 
 export const Statistics = ({ title, stats }) => {
   return (

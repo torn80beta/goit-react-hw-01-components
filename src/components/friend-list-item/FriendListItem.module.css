@@ -9,9 +9,16 @@
 }
 
 .status {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
 }
 
-/* .avatar {} */
+.avatar {
+    padding: 3px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
 
 .name {
     font-size: 18px;
