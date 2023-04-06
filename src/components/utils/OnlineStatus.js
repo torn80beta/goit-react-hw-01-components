@@ -1,4 +1,4 @@
-export const onlineStatus = () => {
+export const onlineStatus = isOnline => {
   if (!isOnline) {
     return `rgb(240, 63, 63)`;
   } else {

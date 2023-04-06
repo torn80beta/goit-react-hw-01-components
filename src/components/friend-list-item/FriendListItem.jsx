@@ -8,7 +8,7 @@ export function FriendListItem({ friends: { avatar, name, isOnline } }) {
       <span
         className={css.status}
         style={{
-          backgroundColor: onlineStatus(),
+          backgroundColor: onlineStatus(isOnline),
         }}
       >
         {isOnline}
