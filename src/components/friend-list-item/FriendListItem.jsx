@@ -1,4 +1,5 @@
 import css from './FriendListItem.module.css';
+import PropTypes from 'prop-types';
 import { getRandomHexColor } from '../utils/GetRandomColor';
 import { onlineStatus } from '../utils/OnlineStatus';
 
@@ -24,3 +25,12 @@ export function FriendListItem({ friends: { avatar, name, isOnline } }) {
     </li>
   );
 }
+FriendListItem.propTypes = {
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+      avatar: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      isOnline: PropTypes.bool.isRequired,
+    }).isRequired
+  ).isRequired,
+};

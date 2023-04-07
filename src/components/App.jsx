@@ -1,4 +1,4 @@
-import { Profile } from './social-profile/Profile';
+import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import { FriendList } from './friend-list/FriendList';
 import { TransactionTable } from './transaction-table/TransactionTable';
@@ -10,7 +10,7 @@ export const App = () => {
   return (
     <>
       <Profile userData={user} />
-      <Statistics title={'Upload stats'} stats={data} />
+      <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
       <TransactionTable transactions={transactions} />
     </>
