@@ -21,8 +21,12 @@
 }
 
 .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: calc(100% / 5);
     height: 60px;
+    padding: 5px;
     color: white;
     text-align: center;
     border: none;
@@ -30,7 +34,6 @@
 
 .label {
     font-size: smaller;
-    margin-bottom: 10px;
 }
 
 .percentage {
