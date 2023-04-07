@@ -26,11 +26,9 @@ export function FriendListItem({ friends: { avatar, name, isOnline } }) {
   );
 }
 FriendListItem.propTypes = {
-  friends: PropTypes.arrayOf(
-    PropTypes.shape({
-      avatar: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      isOnline: PropTypes.bool.isRequired,
-    }).isRequired
-  ).isRequired,
+  friends: PropTypes.shape({
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    isOnline: PropTypes.bool.isRequired,
+  }).isRequired,
 };
